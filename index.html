@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Srujan Raghavendra S | Associate AI Developer & Backend Engineer</title>
+  <meta name="description" content="Portfolio of Srujan Raghavendra S — Associate AI Developer at Conneqtion Group (Client: Etihad Engineering), Ex-Bright Money. Specializing in distributed microservices, LangGraph RAG, and high-throughput backend architecture." />
+  <meta name="author" content="Srujan Raghavendra S" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Srujan Raghavendra S | Backend & AI Systems Engineer" />
+  <meta property="og:description" content="Associate AI Developer at Conneqtion Group (Client: Etihad Engineering) · Ex-Bright Money." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://portfolio-eg2t.vercel.app/" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230f172a'/%3E%3Ccircle cx='10' cy='16' r='4' fill='%2338bdf8'/%3E%3Cpath d='M16 10h8M16 16h6M16 22h8' stroke='%2338bdf8' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E" />
+
+  <!-- Google Fonts: Archivo & IBM Plex Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Archivo', 'sans-serif'],
+            mono: ['"IBM Plex Mono"', 'monospace'],
+          },
+          colors: {
+            brand: {
+              400: '#38bdf8',
+              500: '#0ea5e9',
+              600: '#0284c7',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Styles, Bookmarks & Micro-Animations -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body class="bg-[#0b1120] text-slate-100 min-h-screen selection:bg-sky-500 selection:text-white relative">
+  <!-- Skip link for a11y -->
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 z-50 px-4 py-2 bg-sky-600 text-white rounded-md">Skip to content</a>
+
+  <!-- Side Bookmarks Navigation (Right Edge Lines as requested in screenshot) -->
+  <nav id="side-bookmarks" class="bookmark-nav" aria-label="Section bookmarks"></nav>
+
+  <!-- Top Navigation Bar -->
+  <header class="sticky top-0 z-40 w-full backdrop-blur-md bg-[#0b1120]/85 border-b border-slate-800 transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 h-16 flex items-center justify-between">
+      <!-- Brand Logo / Name -->
+      <a href="#top" class="flex items-center gap-2.5 font-bold text-white hover:text-sky-400 transition-colors" aria-label="Back to top">
+        <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 inline-block"></span>
+        <span class="tracking-tight text-sm sm:text-base font-mono">Srujan Raghavendra S</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden lg:flex items-center gap-6 text-xs font-mono tracking-wide text-slate-400">
+        <a href="#writing" class="hover:text-sky-400 transition-colors">Articles</a>
+        <a href="#experience" class="hover:text-sky-400 transition-colors">Experience</a>
+        <a href="#skills" class="hover:text-sky-400 transition-colors">Skills</a>
+        <a href="#certificates" class="hover:text-sky-400 transition-colors">Certificates</a>
+        <a href="#projects" class="hover:text-sky-400 transition-colors">Projects</a>
+        <a href="#github-live" class="hover:text-sky-400 transition-colors">GitHub</a>
+        <a href="#leetcode-live" class="hover:text-sky-400 transition-colors">LeetCode</a>
+        <a href="#contact" class="hover:text-sky-400 transition-colors">Contact</a>
+      </nav>
+
+      <!-- Right Controls: Resume Download -->
+      <div class="flex items-center gap-3">
+        <a id="nav-resume" href="assets/Srujan_Raghavendra_Resume.pdf" download="Srujan_Raghavendra_Resume.pdf" class="px-4 py-1.5 rounded-lg text-xs font-mono font-medium bg-sky-600 hover:bg-sky-500 text-white transition-all shadow-sm hover:shadow-sky-500/20 flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+          <span>Résumé</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="max-w-7xl mx-auto px-4 sm:px-8 py-8 space-y-20">
+    <!-- ==================================================================== -->
+    <!-- HERO SECTION (CLEAN, NO SVG ARCH CARD, ROLE LINE UNDER NAME)        -->
+    <!-- ==================================================================== -->
+    <section id="top" class="pt-6 pb-4">
+      <div class="max-w-4xl space-y-6">
+        <!-- Live Status Pill -->
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono bg-sky-500/10 text-sky-400 border border-sky-500/20">
+          <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+          <span class="w-4 h-4 rounded bg-white p-0.5 inline-flex items-center justify-center shadow-sm overflow-hidden flex-shrink-0">
+            <img src="assets/conneqtiongroup.jpg" alt="Conneqtion" class="w-full h-full object-contain" />
+          </span>
+          <span>Associate AI Developer @ Conneqtion Group (Client: Etihad Engineering)</span>
+        </div>
+
+        <div>
+          <h1 id="hero-name" class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
+            Srujan Raghavendra S
+          </h1>
+
+          <!-- Role Banner Under Name -->
+          <div id="hero-role-line" class="mt-2 text-base sm:text-lg font-mono font-semibold text-sky-400">
+            Associate AI Developer @ Conneqtion Group (Client: Etihad Engineering) · Ex-Bright Money
+          </div>
+        </div>
+
+        <p id="hero-headline" class="text-base sm:text-lg text-slate-300 font-medium leading-relaxed">
+          Backend-focused Software Engineer with hands-on experience building scalable REST APIs and distributed microservices in production FinTech, AI and Enterprise environments.
+        </p>
+
+        <p id="hero-about" class="text-sm text-slate-400 leading-relaxed max-w-3xl">
+          Passionate about system design, reliability, and backend architecture. I build backend services, event-driven pipelines and AI retrieval systems for FinTech, aviation and enterprise teams.
+        </p>
+
+        <!-- Quick Facts Matrix -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-4 pb-2 border-y border-slate-800 text-xs font-mono">
+          <div>
+            <span class="text-slate-500 block text-[10px] uppercase tracking-wider mb-0.5">Current Role</span>
+            <span id="fact-now" class="font-medium text-slate-200">Conneqtion (Client: Etihad)</span>
+          </div>
+          <div>
+            <span class="text-slate-500 block text-[10px] uppercase tracking-wider mb-0.5">Core Focus</span>
+            <span id="fact-focus" class="font-medium text-slate-200">Distributed Backends & RAG</span>
+          </div>
+          <div>
+            <span class="text-slate-500 block text-[10px] uppercase tracking-wider mb-0.5">Based In</span>
+            <span id="fact-location" class="font-medium text-slate-200">Bengaluru, India</span>
+          </div>
+          <div>
+            <span class="text-slate-500 block text-[10px] uppercase tracking-wider mb-0.5">Open To</span>
+            <span id="fact-opento" class="font-medium text-slate-200">Backend & AI Platform</span>
+          </div>
+        </div>
+
+        <!-- Action CTAs & Social Links -->
+        <div class="flex flex-wrap items-center gap-3 pt-2">
+          <a id="cta-email" href="mailto:srujan9712@gmail.com" class="px-5 py-2.5 rounded-lg text-sm font-semibold bg-sky-600 hover:bg-sky-500 text-white transition-all shadow-md hover:shadow-sky-500/25">
+            Email Me
+          </a>
+          <a id="cta-resume" href="assets/Srujan_Raghavendra_Resume.pdf" download="Srujan_Raghavendra_Resume.pdf" class="px-5 py-2.5 rounded-lg text-sm font-semibold border border-slate-700 hover:bg-slate-800 text-slate-200 transition-all flex items-center gap-2">
+            <svg class="w-4 h-4 text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+            Download Résumé
+          </a>
+          <a href="https://www.linkedin.com/in/srujan-raghavendra-s/" target="_blank" rel="noopener" class="p-2.5 rounded-lg border border-slate-700 hover:text-sky-400 hover:border-sky-500 transition-colors" title="LinkedIn">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="https://github.com/SrujanRaghavendraS" target="_blank" rel="noopener" class="p-2.5 rounded-lg border border-slate-700 hover:text-sky-400 hover:border-sky-500 transition-colors" title="GitHub">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="https://leetcode.com/u/Srujan_Raghavendra_S" target="_blank" rel="noopener" class="p-2.5 rounded-lg border border-slate-700 hover:text-amber-400 hover:border-amber-500 transition-colors" title="LeetCode">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.874 5.874 0 0 0 .349 1.017 5.938 5.938 0 0 0 .58 1.085l.024.036.007.011a5.86 5.86 0 0 0 2.308 1.986 5.748 5.748 0 0 0 1.914.545 5.56 5.56 0 0 0 2.124-.19 5.485 5.485 0 0 0 2.012-.99l3.854-4.126 5.406-5.788a1.373 1.373 0 0 0 0-1.942 1.373 1.373 0 0 0-1.942 0L13.483 11.23l-3.854 4.126a2.743 2.743 0 0 1-1.006.495 2.78 2.78 0 0 1-1.062.095 2.874 2.874 0 0 1-.957-.272 2.93 2.93 0 0 1-1.154-.993 2.969 2.969 0 0 1-.29-.542 2.937 2.937 0 0 1-.174-.509 2.763 2.763 0 0 1-.031-1.181 2.633 2.633 0 0 1 .604-1.052l3.854-4.126 5.406-5.788a1.374 1.374 0 0 0-.387-.983A1.374 1.374 0 0 0 13.483 0z"/></svg>
+          </a>
+          <a href="https://medium.com/@srujan9712" target="_blank" rel="noopener" class="p-2.5 rounded-lg border border-slate-700 hover:text-emerald-400 hover:border-emerald-500 transition-colors" title="Medium">
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================== -->
+    <!-- TECHNICAL WRITING & ARTICLES (IMMEDIATELY AFTER NAME, HORIZONTAL)    -->
+    <!-- ==================================================================== -->
+    <section id="writing" class="scroll-mt-24 space-y-4">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <div>
+          <div class="inline-flex items-center gap-2 text-xs font-mono text-sky-400 mb-0.5">
+            <span class="w-2 h-2 rounded-full bg-sky-400"></span>
+            Technical Writing & Articles (Medium RSS Live Feed)
+          </div>
+          <h2 class="text-xl sm:text-2xl font-extrabold text-white tracking-tight">Recent Publications & Engineering Insights</h2>
+        </div>
+
+        <!-- Horizontal Scroll Arrows -->
+        <div class="flex items-center gap-2">
+          <button id="articles-scroll-left" type="button" class="p-2 rounded-lg border border-slate-800 bg-[#131d33] hover:bg-slate-800 text-slate-300 hover:text-white transition-colors" aria-label="Scroll left">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+          </button>
+          <button id="articles-scroll-right" type="button" class="p-2 rounded-lg border border-slate-800 bg-[#131d33] hover:bg-slate-800 text-slate-300 hover:text-white transition-colors" aria-label="Scroll right">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Horizontally Scrollable Track -->
+      <div id="medium-articles-container" class="h-scroll-container hide-scrollbar h-scroll-styled">
+        <div class="py-8 text-center text-xs font-mono text-slate-400">Loading articles from Medium...</div>
+      </div>
+    </section>
+
+    <!-- ==================================================================== -->
+    <!-- EXPERIENCE SECTION (INTERACTIVE TRACE TIMELINE: DESIGNATION + COMPANY -->
+    <!-- ON LEFT, X-AXIS TIMELINE BAR ON RIGHT, CARDS APPEAR ON CLICK)       -->
+    <!-- ==================================================================== -->
+    <section id="experience" class="scroll-mt-24 space-y-6">
+      <div class="border-b border-slate-800 pb-4">
+        <div class="inline-flex items-center gap-2 text-xs font-mono text-sky-400 mb-1">
+          <span class="w-2 h-2 rounded-full bg-sky-400"></span>
+          Career Milestones & Chronological Timeline
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Experience & System Deliverables</h2>
+        <p class="text-sm text-slate-400 mt-1">
+          Interactive trace timeline. Click any card below to expand comprehensive architectural deliverables, production metrics, and technology stacks.
+        </p>
+      </div>
+
+      <!-- Interactive Trace Timeline Container -->
+      <div id="experience-trace" class="trace"></div>
+    </section>
+
+    <!-- ==================================================================== -->
+    <!-- TECHNICAL SKILLS SECTION (PROVEN TRACK RECORD STATEMENT)             -->
+    <!-- ==================================================================== -->
+    <section id="skills" class="scroll-mt-24 space-y-6">
+      <div class="border-b border-slate-800 pb-4">
+        <div class="inline-flex items-center gap-2 text-xs font-mono text-emerald-400 mb-1">
+          <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+          Comprehensive Technical Proficiency
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Technical Stack & Architectural Capabilities</h2>
+        <!-- Requested Strong Statement -->
+        <p class="text-sm sm:text-base text-sky-300 font-medium mt-2 leading-relaxed">
+          Proven track record across full backend architecture, distributed microservices, AI pipelines, and cloud infrastructure.
+        </p>
+        <p class="text-xs text-slate-400 mt-1 font-mono">
+          Demonstrated production impact spanning 10M+ user event streams, automated LangGraph RAG assistants, and fault-tolerant cloud services.
+        </p>
+      </div>
+
+      <!-- 6 Categorized Skill Boxes -->
+      <div id="skills-stack-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+    </section>
+
+    <!-- ==================================================================== -->
+    <!-- CERTIFICATES SECTION (HORIZONTALLY SCROLLABLE, PDF READY)            -->
+    <!-- ==================================================================== -->
+    <section id="certificates" class="scroll-mt-24 space-y-4">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <div>
+          <div class="inline-flex items-center gap-2 text-xs font-mono text-amber-400 mb-0.5">
+            <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+            Professional Certifications (PDF Credentials)
+          </div>
+          <h2 class="text-xl sm:text-2xl font-extrabold text-white tracking-tight">Verified Credentials & Certifications</h2>
+          <p class="text-xs text-slate-400 font-mono mt-0.5">PDF certificates served directly from <code class="text-sky-400">certificates/</code> directory</p>
+        </div>
+
+        <!-- Horizontal Scroll Arrows -->
+        <div class="flex items-center gap-2">
+          <button id="certs-scroll-left" type="button" class="p-2 rounded-lg border border-slate-800 bg-[#131d33] hover:bg-slate-800 text-slate-300 hover:text-white transition-colors" aria-label="Scroll left">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+          </button>
+          <button id="certs-scroll-right" type="button" class="p-2 rounded-lg border border-slate-800 bg-[#131d33] hover:bg-slate-800 text-slate-300 hover:text-white transition-colors" aria-label="Scroll right">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Horizontally Scrollable Certificates Track -->
+      <div id="certificates-container" class="h-scroll-container hide-scrollbar h-scroll-styled"></div>
+    </section>
+
+    <!-- ==================================================================== -->
+    <!-- FEATURED PROJECTS SECTION                                            -->
+    <!-- ==================================================================== -->
+    <section id="projects" class="scroll-mt-24 space-y-6">
+      <div class="border-b border-slate-800 pb-4">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Featured Engineering Projects</h2>
+        <p class="text-sm text-slate-400 mt-1">
+          Production systems, multi-agent workflows, full-stack cloud systems, and published algorithmic architectures.
+        </p>
+      </div>
+
+      <div id="featured-projects-list" class="grid grid-cols-1 md:grid-cols-2 gap-6"></div>
+    </section>
+
+    <!-- ==================================================================== -->
+    <!-- LIVE GITHUB REPOSITORIES (PUBLIC API)                                -->
+    <!-- ==================================================================== -->
+    <section id="github-live" class="scroll-mt-24 space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-slate-800 pb-4">
+        <div>
+          <div class="inline-flex items-center gap-2 text-xs font-mono text-emerald-400 mb-1">
+            <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+            Live Data via GitHub Public REST API
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">GitHub Activity & Repositories</h2>
+        </div>
+        <div id="github-meta-stats"></div>
+      </div>
+
+      <!-- Live Repos Grid -->
+      <div id="live-github-repos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="col-span-full py-8 text-center text-xs font-mono text-slate-400">Loading live repositories from GitHub API...</div>
+      </div>
+
+      <!-- GitHub Stats Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
+        <div class="border border-slate-800 rounded-xl p-4 bg-[#131d33]/50 flex flex-col items-center justify-center">
+          <span class="text-xs font-mono text-slate-400 mb-3 uppercase tracking-wider">GitHub Productivity Metrics</span>
+          <img src="https://github-readme-stats.vercel.app/api?username=SrujanRaghavendraS&show_icons=true&theme=tokyonight&hide_border=true&bg_color=131d33" alt="GitHub Stats" loading="lazy" class="rounded-lg max-w-full shadow-md" />
+        </div>
+        <div class="border border-slate-800 rounded-xl p-4 bg-[#131d33]/50 flex flex-col items-center justify-center">
+          <span class="text-xs font-mono text-slate-400 mb-3 uppercase tracking-wider">Productive Time Distribution</span>
+          <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SrujanRaghavendraS&theme=tokyonight" alt="GitHub Productive Time" loading="lazy" class="rounded-lg max-w-full shadow-md" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================== -->
+    <!-- LIVE LEETCODE SECTION (PUBLIC API)                                   -->
+    <!-- ==================================================================== -->
+    <section id="leetcode-live" class="scroll-mt-24 space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 border-b border-slate-800 pb-4">
+        <div>
+          <div class="inline-flex items-center gap-2 text-xs font-mono text-amber-400 mb-1">
+            <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+            Live Data via Public LeetCode Profile API
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">LeetCode & Problem Solving</h2>
+        </div>
+        <a href="https://leetcode.com/u/Srujan_Raghavendra_S" target="_blank" rel="noopener" class="text-xs font-mono text-amber-400 hover:underline flex items-center gap-1">
+          Profile: @Srujan_Raghavendra_S ↗
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        <!-- Stats Summary Card -->
+        <div class="lg:col-span-5 border border-slate-800 rounded-xl p-6 bg-[#131d33]/80 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-mono uppercase tracking-wider text-slate-400">Total Problems Solved</span>
+              <span id="leetcode-ranking" class="text-xs font-mono text-slate-400">#633,782</span>
+            </div>
+            <div class="text-5xl font-extrabold text-amber-400 mb-6 font-mono" id="leetcode-total-solved">256+</div>
+
+            <!-- Progress Bars -->
+            <div class="space-y-4">
+              <div>
+                <div class="flex justify-between text-xs font-mono mb-1">
+                  <span class="text-emerald-400 font-semibold">Easy</span>
+                  <span id="leetcode-easy-solved" class="text-slate-400">147 / 968</span>
+                </div>
+                <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
+                  <div id="leetcode-easy-bar" class="bg-emerald-500 h-full rounded-full transition-all duration-500" style="width: 60%"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-mono mb-1">
+                  <span class="text-amber-400 font-semibold">Medium</span>
+                  <span id="leetcode-med-solved" class="text-slate-400">95 / 2122</span>
+                </div>
+                <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
+                  <div id="leetcode-med-bar" class="bg-amber-500 h-full rounded-full transition-all duration-500" style="width: 40%"></div>
+                </div>
+              </div>
+
+              <div>
+                <div class="flex justify-between text-xs font-mono mb-1">
+                  <span class="text-red-400 font-semibold">Hard</span>
+                  <span id="leetcode-hard-solved" class="text-slate-400">14 / 979</span>
+                </div>
+                <div class="w-full bg-slate-800 h-2 rounded-full overflow-hidden">
+                  <div id="leetcode-hard-bar" class="bg-red-500 h-full rounded-full transition-all duration-500" style="width: 25%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-6 border-t border-slate-800 text-xs font-mono text-slate-400">
+            Focused on LRU caches, interval algorithms, graph traversals, and dynamic programming in Python.
+          </div>
+        </div>
+
+        <!-- Recent Solved Submissions List -->
+        <div class="lg:col-span-7 border border-slate-800 rounded-xl p-6 bg-[#131d33]/80 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="text-sm font-bold text-white uppercase tracking-wider font-mono">Recently Accepted Submissions</h3>
+              <span class="text-[11px] font-mono text-emerald-400">Live Solved</span>
+            </div>
+            <div id="leetcode-recent-list" class="space-y-2">
+              <div class="text-xs font-mono text-slate-400 py-4">Fetching recent LeetCode solutions...</div>
+            </div>
+          </div>
+
+          <div class="pt-4 mt-4 border-t border-slate-800 flex items-center justify-between">
+            <span class="text-xs font-mono text-slate-400">Verified LeetCode Profile</span>
+            <a href="https://leetcode.com/u/Srujan_Raghavendra_S" target="_blank" rel="noopener" class="text-xs font-mono px-3 py-1 rounded bg-amber-500/10 text-amber-400 border border-amber-500/20 hover:bg-amber-500/20 transition-colors">
+              View on LeetCode ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================================== -->
+    <!-- RESEARCH & PUBLICATIONS                                              -->
+    <!-- ==================================================================== -->
+    <section id="research" class="scroll-mt-24 space-y-6">
+      <div class="border-b border-slate-800 pb-4">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">Academic Research & Publications</h2>
+        <p class="text-sm text-slate-400 mt-1">
+          Peer-reviewed conference publications in smart allocation algorithms and distributed computing.
+        </p>
+      </div>
+
+      <div id="publications-list" class="space-y-4"></div>
+    </section>
+
+    <!-- ==================================================================== -->
+    <!-- CONTACT SECTION                                                      -->
+    <!-- ==================================================================== -->
+    <section id="contact" class="scroll-mt-24 border-t border-slate-800 pt-16 pb-8 space-y-10">
+      <div class="max-w-3xl">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+          Let’s build systems that stay calm under load.
+        </h2>
+        <p id="contact-open-to" class="text-base text-slate-300 mt-2"></p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+        <!-- Direct Coordinates -->
+        <div class="lg:col-span-5 space-y-4 text-sm font-mono">
+          <div class="p-5 rounded-xl border border-slate-800 bg-[#131d33]/80 space-y-3">
+            <div>
+              <span class="text-xs text-slate-400 block uppercase">Email</span>
+              <a id="footer-email" href="mailto:srujan9712@gmail.com" class="text-sky-400 font-semibold hover:underline">srujan9712@gmail.com</a>
+            </div>
+            <div>
+              <span class="text-xs text-slate-400 block uppercase">Phone</span>
+              <a id="footer-phone" href="tel:+919110415398" class="text-slate-300 hover:underline">(+91) 9110415398</a>
+            </div>
+            <div>
+              <span class="text-xs text-slate-400 block uppercase">Location</span>
+              <span class="text-slate-300">Bengaluru, Karnataka, India</span>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-2 text-xs">
+            <a href="https://www.linkedin.com/in/srujan-raghavendra-s/" target="_blank" rel="noopener" class="px-3 py-2 rounded-lg border border-slate-800 bg-[#131d33]/50 hover:text-sky-400 transition-colors">LinkedIn ↗</a>
+            <a href="https://github.com/SrujanRaghavendraS" target="_blank" rel="noopener" class="px-3 py-2 rounded-lg border border-slate-800 bg-[#131d33]/50 hover:text-sky-400 transition-colors">GitHub ↗</a>
+            <a href="https://leetcode.com/u/Srujan_Raghavendra_S" target="_blank" rel="noopener" class="px-3 py-2 rounded-lg border border-slate-800 bg-[#131d33]/50 hover:text-amber-400 transition-colors">LeetCode ↗</a>
+            <a href="https://medium.com/@srujan9712" target="_blank" rel="noopener" class="px-3 py-2 rounded-lg border border-slate-800 bg-[#131d33]/50 hover:text-emerald-400 transition-colors">Medium ↗</a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="lg:col-span-7">
+          <form id="contact-form" onsubmit="event.preventDefault(); alert('Thank you for reaching out! You can also email Srujan directly at srujan9712@gmail.com');" class="border border-slate-800 rounded-xl p-6 bg-[#131d33]/80 space-y-4">
+            <h3 class="text-base font-bold text-white">Send a Direct Message</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label for="contact-name" class="block text-xs font-mono text-slate-400 mb-1">Your Name</label>
+                <input type="text" id="contact-name" required class="w-full px-3 py-2 text-sm rounded-lg border border-slate-700 bg-slate-800 text-slate-200 focus:outline-none focus:border-sky-500 font-mono" placeholder="Engineering Lead / Recruiter" />
+              </div>
+              <div>
+                <label for="contact-sender-email" class="block text-xs font-mono text-slate-400 mb-1">Your Email</label>
+                <input type="email" id="contact-sender-email" required class="w-full px-3 py-2 text-sm rounded-lg border border-slate-700 bg-slate-800 text-slate-200 focus:outline-none focus:border-sky-500 font-mono" placeholder="team@company.com" />
+              </div>
+            </div>
+            <div>
+              <label for="contact-message" class="block text-xs font-mono text-slate-400 mb-1">Message</label>
+              <textarea id="contact-message" rows="4" required class="w-full px-3 py-2 text-sm rounded-lg border border-slate-700 bg-slate-800 text-slate-200 focus:outline-none focus:border-sky-500 font-mono" placeholder="Hi Srujan, let's connect regarding a backend / AI opportunity..."></textarea>
+            </div>
+            <button type="submit" class="w-full sm:w-auto px-6 py-2.5 rounded-lg text-sm font-semibold bg-emerald-600 hover:bg-emerald-500 text-white transition-all shadow-md hover:shadow-emerald-500/25">
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800 py-8 bg-[#070b14] text-xs font-mono text-slate-500">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <span>© <span id="footer-year">2026</span> Srujan Raghavendra S. All rights reserved.</span>
+      <div class="flex items-center gap-4">
+        <span>Associate AI Developer @ Conneqtion Group (Client: Etihad Engineering)</span>
+        <span>•</span>
+        <a href="#top" class="text-sky-400 hover:underline">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================================================================== -->
+  <!-- "ASK ABOUT SRUJAN" ASSISTANT FLOATING BUTTON & MODAL                 -->
+  <!-- ==================================================================== -->
+  <div class="fixed bottom-6 right-6 z-40">
+    <button id="chat-launch-btn" type="button" class="group flex items-center gap-2 px-4 py-2.5 rounded-full shadow-2xl bg-sky-600 hover:bg-sky-500 text-white text-xs font-mono font-semibold transition-all transform hover:scale-105" aria-label="Ask about Srujan">
+      <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+      <span>Ask about Srujan</span>
+      <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
+    </button>
+  </div>
+
+  <!-- Assistant Dialog Modal -->
+  <div id="chat-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4" role="dialog" aria-modal="true" aria-labelledby="assistant-title">
+    <div class="w-full max-w-lg rounded-2xl bg-[#131d33] border border-slate-800 shadow-2xl overflow-hidden flex flex-col max-h-[85vh]">
+      <!-- Header -->
+      <div class="px-5 py-4 border-b border-slate-800 flex items-center justify-between bg-slate-900/80">
+        <div>
+          <h3 id="assistant-title" class="text-sm font-bold text-white flex items-center gap-2">
+            <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+            Ask about Srujan
+          </h3>
+          <p class="text-[11px] font-mono text-slate-400">Grounded in verified experience at Conneqtion/Etihad, Bright Money & Subhanu</p>
+        </div>
+        <button id="chat-close-btn" type="button" class="p-1 rounded-md text-slate-400 hover:text-white" aria-label="Close assistant">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+        </button>
+      </div>
+
+      <!-- Messages Log -->
+      <div id="chat-log" class="p-4 flex-1 overflow-y-auto space-y-3 min-h-[240px]"></div>
+
+      <!-- Quick Suggested Questions -->
+      <div id="chat-suggestions" class="px-4 pb-2 flex flex-wrap gap-1.5"></div>
+
+      <!-- Input Form -->
+      <form id="chat-form" class="p-3 border-t border-slate-800 flex items-center gap-2 bg-slate-900/60">
+        <input type="text" id="chat-input" required class="flex-1 px-3 py-2 text-xs rounded-lg border border-slate-700 bg-slate-800 text-slate-200 focus:outline-none focus:border-sky-500 font-mono" placeholder="Ask about Conneqtion, Bright Money, Subhanu, Kafka, RAG..." />
+        <button type="submit" class="px-3.5 py-2 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-xs font-mono font-medium transition-colors">
+          Ask
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
